@@ -10,7 +10,7 @@ public class PortalCollider : MonoBehaviour
     bool AmInArea;
     void Start()
     {
-        
+        AmInArea = false;
     }
 
     void Update()
