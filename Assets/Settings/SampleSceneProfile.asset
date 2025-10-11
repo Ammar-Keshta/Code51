@@ -87,7 +87,7 @@ MonoBehaviour:
     m_Value: 0.272
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.358
+    m_Value: 0.404
   rounded:
     m_OverrideState: 0
     m_Value: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -166,10 +166,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.6
   contrast:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 56.9
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: -8
+    m_Value: -15.7
 --- !u!114 &6054584990866881122
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -195,7 +195,7 @@ MonoBehaviour:
   master:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 7
+      <length>k__BackingField: 9
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -204,9 +204,9 @@ MonoBehaviour:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
+          value: 0.007142842
+          inSlope: 1.6859382
+          outSlope: 1.6859382
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -221,8 +221,17 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.16695353
-          value: 0.26428574
+          time: 0.04130809
+          value: 0.067857146
+          inSlope: 1.7063838
+          outSlope: 1.7063838
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.14113598
+          value: 0.21428573
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -230,28 +239,37 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.35800344
-          value: 0.3857143
-          inSlope: 0.60334086
-          outSlope: 0.60334086
+          time: 0.3717728
+          value: 0.41785717
+          inSlope: 1.0628046
+          outSlope: 1.0628046
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.55938035
-          value: 0.5321429
-          inSlope: 0.83167434
-          outSlope: 0.83167434
+          time: 0.57831323
+          value: 0.56428576
+          inSlope: 0.34583405
+          outSlope: 0.34583405
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.8704918
-          value: 0.8542373
+          time: 0.7624785
+          value: 0.67857146
           inSlope: 0.9062109
           outSlope: 0.9062109
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.90877795
+          value: 0.81785715
+          inSlope: 1.328
+          outSlope: 1.328
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
