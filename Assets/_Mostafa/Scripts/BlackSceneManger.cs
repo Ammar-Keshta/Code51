@@ -15,7 +15,7 @@ public class BlackSceneManger : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "Blackscene")
         {
-            if (Bridge.XButtonDown)
+            if (Bridge.BButtonDown)
             {
 
                 Application.Quit();
