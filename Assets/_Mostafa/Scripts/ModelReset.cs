@@ -1,0 +1,108 @@
+using System.Collections;
+using System.Collections.Generic;
+using BNG;
+using JetBrains.Annotations;
+using UnityEngine;
+
+public class ModelReset : MonoBehaviour
+{
+    public Transform[] MainPosition;
+    public AudioSource AS;
+    public int id;
+    public void Start()
+    {
+
+    }
+
+    public void OnEnable()
+    {
+
+    }
+
+    void Update()
+    {
+        
+      
+
+
+    }
+
+
+
+    void OnRealseModle()
+    {
+        if (Vector3.Distance(transform.position, MainPosition[0].position) < 0.13F)
+        {
+            AS.Play();
+            transform.position = MainPosition[0].position;
+            transform.rotation = MainPosition[0].rotation;
+
+            if (id == 0) { FindFirstObjectByType<PuzzelManger>().Buzzels[0] = true; }
+            
+
+        }
+        if (Vector3.Distance(transform.position, MainPosition[1].position) < 0.13F)
+        {
+            AS.Play();
+            transform.position = MainPosition[1].position;
+            transform.rotation = MainPosition[1].rotation;
+
+            if (id == 1) { FindFirstObjectByType<PuzzelManger>().Buzzels[1] = true; }
+
+        }
+        if (Vector3.Distance(transform.position, MainPosition[2].position) < 0.13F)
+        {
+            AS.Play();
+            transform.position = MainPosition[2].position;
+            transform.rotation = MainPosition[2].rotation;
+
+            if (id == 2) { FindFirstObjectByType<PuzzelManger>().Buzzels[2] = true; }
+
+
+        }
+        if (Vector3.Distance(transform.position, MainPosition[3].position) < 0.13F)
+        {
+            AS.Play();
+            transform.position = MainPosition[3].position;
+            transform.rotation = MainPosition[3].rotation;
+
+            if (id == 3) { FindFirstObjectByType<PuzzelManger>().Buzzels[3] = true; }
+
+
+        }
+    }
+    public void ONGrab() { FindFirstObjectByType<PuzzelManger>().Buzzels[id] = false; }
+
+
+
+    //public void OnTriggerEnter(Collider other)
+    //{
+    //    switch (other.tag)
+    //    {
+    //        case "1":
+    //            transform.position = MainPosition[0].position;
+    //            transform.rotation = MainPosition[0].rotation;
+    //            this.GetComponent<Grabbable>().enabled = false;
+    //            AS.Play();
+    //            break;
+
+
+    //        case "2":
+
+    //            break;
+
+
+    //        case "3":
+
+    //            break;
+
+
+    //        case "4":
+
+    //            break;
+    //    }
+
+    //}
+
+
+}
