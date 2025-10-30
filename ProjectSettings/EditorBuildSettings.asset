@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LastScene.unity
     guid: 35704651701eb2e4781bd351b4eb24c0
+  - enabled: 1
+    path: Assets/Scenes/TimingZoon.unity
+    guid: 6e8c1ca59dff6cd4a83a6df6278b1707
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 708ded9cb0c546544a969c93ded34d07, type: 2}
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
