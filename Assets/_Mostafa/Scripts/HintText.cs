@@ -5,7 +5,7 @@ public class HintText : MonoBehaviour
 {
     public GameObject hintText;
     public Transform Player;
-    private bool amClose;
+    public bool amClose;
     public InputBridge bridge;
     public GameObject Quesutions;
     public float Distance;
@@ -30,7 +30,14 @@ public class HintText : MonoBehaviour
             amClose = false;
         }
 
-        if (bridge.BButtonDown || Input.GetKeyDown(KeyCode.B) && canSolve && amClose) {
+        if (bridge.BButtonDown && canSolve && amClose  ) {
+            Quesutions.SetActive(true);
+            hintText.SetActive(false);
+
+
+        }   
+        
+        if (Input.GetKeyDown(KeyCode.B) && canSolve && amClose) {
             Quesutions.SetActive(true);
             hintText.SetActive(false);
         }

@@ -30,19 +30,21 @@ public class QuestionManger : MonoBehaviour
             {
 
                 case true:
+                    FindFirstObjectByType<QuestionsManger>().Questions[id] = true;
+                    FindFirstObjectByType<QuestionsManger>().count += 1;
                     source.clip = Clips[0];
                     source.Play();
                     transform.root.gameObject.SetActive(false);
-                    FindFirstObjectByType<QuestionsManger>().Questions[id] = true ;
-                    FindFirstObjectByType<QuestionsManger>().count += 1 ;
+                   
                     break;
 
 
                 case false:
+                    FindFirstObjectByType<QuestionsManger>().restquestions();
+
                     source.clip = Clips[1];
                     source.Play();
                     transform.root.gameObject.SetActive(false);
-                    FindFirstObjectByType<QuestionsManger>().restquestions();
 
                     break;
             }

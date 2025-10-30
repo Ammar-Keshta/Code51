@@ -4286,6 +4286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HintText
   hintText: {fileID: 1098798973}
   Player: {fileID: 2093207349811870531}
+  amClose: 0
   bridge: {fileID: 8320362180286635688}
   Quesutions: {fileID: 2303583566391967919}
   Distance: 0
@@ -17324,11 +17325,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HintText
   hintText: {fileID: 1083501770}
   Player: {fileID: 2093207349811870531}
+  amClose: 0
   bridge: {fileID: 8320362180286635688}
   Quesutions: {fileID: 2102934809}
   Distance: 0
   canSolve: 1
-  id: 4
+  id: 3
 --- !u!1 &1513469103 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 255429738255841608, guid: 3ce05fd281994d04e80becd2ffe84ed5, type: 3}
@@ -18478,11 +18480,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HintText
   hintText: {fileID: 75478800}
   Player: {fileID: 2093207349811870531}
+  amClose: 0
   bridge: {fileID: 8320362180286635688}
   Quesutions: {fileID: 593304641}
   Distance: 0
   canSolve: 1
-  id: 2
+  id: 1
 --- !u!1 &1595932098
 GameObject:
   m_ObjectHideFlags: 0
@@ -22493,6 +22496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HintText
   hintText: {fileID: 1007115094}
   Player: {fileID: 2093207349811870531}
+  amClose: 0
   bridge: {fileID: 8320362180286635688}
   Quesutions: {fileID: 1683553071}
   Distance: 0
@@ -23664,11 +23668,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HintText
   hintText: {fileID: 1846365293}
   Player: {fileID: 2093207349811870531}
+  amClose: 0
   bridge: {fileID: 8320362180286635688}
   Quesutions: {fileID: 1197186429}
   Distance: 0
   canSolve: 1
-  id: 3
+  id: 2
 --- !u!1 &2067572791 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 255429738255841608, guid: 3ce05fd281994d04e80becd2ffe84ed5, type: 3}

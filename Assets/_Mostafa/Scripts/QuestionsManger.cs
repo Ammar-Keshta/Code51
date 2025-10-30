@@ -41,6 +41,7 @@ public class QuestionsManger : MonoBehaviour
             Questions[i] = false;
         }
         count = 0;
+        Door.canSolve = false;
     }
 
     private bool AllTrue()
