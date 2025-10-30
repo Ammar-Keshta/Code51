@@ -19,7 +19,7 @@ public class HintText : MonoBehaviour
     void Update()
     {
         Distance = Vector3.Distance(transform.position, Player.position);
-        if (Vector3.Distance(transform.position, Player.position) < 2F && canSolve)
+        if (Vector3.Distance(transform.position, Player.position) < 3F && canSolve)
         {
             hintText.SetActive(true);
             amClose = true;

@@ -10,6 +10,7 @@ public class PuzzelManger : MonoBehaviour
     public Transform Door;
     public GameObject[] Elements;
     public Animator Animator;
+    public GameObject wall;
     void Start()
     {
         
@@ -32,6 +33,8 @@ public class PuzzelManger : MonoBehaviour
 
     private bool AllTrue()
     {
+
+        
         if (Buzzels == null || Buzzels.Length == 0)
             return false;
 
@@ -39,8 +42,14 @@ public class PuzzelManger : MonoBehaviour
         {
             if (!Buzzels[i])
                 return false;
+
+                wall.GetComponent<MeshCollider>().convex = false;
+                print("OPENDOOR");
         }
 
         return true;
+
+
     }
+
 }
