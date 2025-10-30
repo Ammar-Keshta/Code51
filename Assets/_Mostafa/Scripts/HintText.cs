@@ -11,6 +11,7 @@ public class HintText : MonoBehaviour
     public float Distance;
     public bool canSolve;
     public int id;
+    public bool x = false;
     void Start()
     {
         
@@ -19,14 +20,20 @@ public class HintText : MonoBehaviour
     void Update()
     {
         Distance = Vector3.Distance(transform.position, Player.position);
-        if (Vector3.Distance(transform.position, Player.position) < 3F && canSolve)
+        if (Vector3.Distance(transform.position, Player.position) < 3F && canSolve )
         {
-            hintText.SetActive(true);
+            if (!x)
+            {
+                x = true;
+                hintText.SetActive(true);
+            }
             amClose = true;
+         
         }
         else
         {
             hintText.SetActive(false);
+            x = false;
             amClose = false;
         }
 

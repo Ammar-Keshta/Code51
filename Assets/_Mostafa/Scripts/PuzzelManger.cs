@@ -11,6 +11,7 @@ public class PuzzelManger : MonoBehaviour
     public GameObject[] Elements;
     public Animator Animator;
     public GameObject wall;
+    public bool[] Sokets;
     void Start()
     {
         
