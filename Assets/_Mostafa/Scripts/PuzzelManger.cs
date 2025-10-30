@@ -6,8 +6,10 @@ public class PuzzelManger : MonoBehaviour
 
     public bool[] Buzzels;
     public UnityEvent OnBuzzelSolved;
-    private bool eventTriggered = false; 
-
+    private bool eventTriggered = false;
+    public Transform Door;
+    public GameObject[] Elements;
+    public Animator Animator;
     void Start()
     {
         
@@ -19,6 +21,12 @@ public class PuzzelManger : MonoBehaviour
         {
             eventTriggered = true;
             OnBuzzelSolved.Invoke();
+
+            for (int i = 0; i < Elements.Length; i++)
+            {
+                Elements[i].transform.parent = Door.transform;
+            }
+            Animator.SetInteger("x", 1);
         }
     }
 

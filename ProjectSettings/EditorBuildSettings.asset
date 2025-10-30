@@ -6,10 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: dae9faef12c6a72489050b1325f31f5f
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Blackscene.unity
+    path: Assets/Scenes/Level_1.1.1.unity
+    guid: 276745efcf5a88843b0865f129256599
+  - enabled: 1
+    path: Assets/Scenes/LastScene.unity
     guid: 35704651701eb2e4781bd351b4eb24c0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 708ded9cb0c546544a969c93ded34d07, type: 2}

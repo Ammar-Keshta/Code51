@@ -6,6 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class SignalLerpHandler : MonoBehaviour
 {
@@ -201,6 +202,13 @@ public class SignalLerpHandler : MonoBehaviour
             Debug.LogWarning("Color Adjustments مش موجودة في الـ Global Volume!");
         }
 
+        Invoke("wait", 3f);
+
+    }
+
+    public void wait() {
+
+        SceneManager.LoadScene("TimingZoon");
     }
 } 
 

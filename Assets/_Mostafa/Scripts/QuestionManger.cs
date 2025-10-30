@@ -3,12 +3,12 @@ using UnityEngine.Events;
 
 public class QuestionManger : MonoBehaviour
 {
-    public GameObject NextQuestion;
     public bool LastQuestion;
     public AudioClip[] Clips;
     public AudioSource source;
     public UnityEvent OnQuestiosDone;
     private bool eventTriggered = false;
+    public int id;
 
     void Start()
     {
@@ -32,16 +32,17 @@ public class QuestionManger : MonoBehaviour
                 case true:
                     source.clip = Clips[0];
                     source.Play();
-                    this.gameObject.SetActive(false);
-                    NextQuestion.SetActive(true);
+                    transform.parent.gameObject.SetActive(false);
+                    FindFirstObjectByType<QuestionsManger>().Questions[id] = true ;
                     break;
 
 
                 case false:
                     source.clip = Clips[1];
                     source.Play();
-                    this.gameObject.SetActive(false);
-                    NextQuestion.SetActive(true);
+                    transform.parent.gameObject.SetActive(false);
+                    FindFirstObjectByType<QuestionsManger>().restquestions();
+
                     break;
             }
 
@@ -53,7 +54,7 @@ public class QuestionManger : MonoBehaviour
             {
                 eventTriggered = true;
                 OnQuestiosDone.Invoke();
-                this.gameObject.SetActive(false);
+                transform.parent.gameObject.SetActive(false);
 
             }
 

@@ -13,21 +13,20 @@ public class BlackSceneManger : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "Blackscene")
-        {
-            if (Bridge.BButtonDown)
+       
+            if (Bridge.XButtonDown)
             {
 
-                Application.Quit();
+            SceneManager.LoadScene("Level_1.1.1");
 
-            }
-
-            if (Bridge.YButtonDown)
-            {
-
-                SceneManager.LoadScene("SampleScene");
-
-            }
         }
+
+        if (Bridge.YButtonDown)
+            {
+
+                SceneManager.LoadScene("MainMenu");
+
+            }
+        
     }
 }
