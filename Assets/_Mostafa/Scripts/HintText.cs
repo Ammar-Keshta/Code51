@@ -35,6 +35,8 @@ public class HintText : MonoBehaviour
             hintText.SetActive(false);
         }
 
-        if (FindFirstObjectByType<QuestionsManger>().Questions[id] == true) { canSolve = false; }// else { canSolve = false; }
+        if (FindFirstObjectByType<QuestionsManger>().Questions[id] == true) { canSolve = false; } 
+        
+        else if(id!=4) { canSolve = true; }
     }
 }
