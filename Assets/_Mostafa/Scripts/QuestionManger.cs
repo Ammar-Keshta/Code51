@@ -46,6 +46,8 @@ public class QuestionManger : MonoBehaviour
                     source.Play();
                     transform.root.gameObject.SetActive(false);
 
+                    FindFirstObjectByType<QuestionsManger>().StartLerp();
+
                     break;
             }
 

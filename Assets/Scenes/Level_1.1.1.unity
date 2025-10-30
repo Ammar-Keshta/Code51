@@ -4333,6 +4333,14 @@ MonoBehaviour:
   Door: {fileID: 1956727764}
   counttext: {fileID: 1219745158}
   count: 0
+  targetMaterial: {fileID: 2100000, guid: 76b0d85e8d5be134b919c083bb977d29, type: 2}
+  propertyName: _DisTir
+  fromValue: 0
+  toValue: 1
+  duration: 2
+  targetLight: {fileID: 2091688174}
+  lightFromValue: 0
+  lightToValue: 10
 --- !u!1 &367032969
 GameObject:
   m_ObjectHideFlags: 0
@@ -11136,7 +11144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1007115095
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11145,7 +11153,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007115094}
   m_LocalRotation: {x: -0, y: 0.9999084, z: -0, w: -0.013542549}
-  m_LocalPosition: {x: 0, y: 0, z: -0.072}
+  m_LocalPosition: {x: 0, y: 0, z: -0.068}
   m_LocalScale: {x: 0.012680954, y: 0.00508164, z: 0.052302375}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11154,7 +11162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 181.552, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0222, y: 0.12065852}
+  m_AnchoredPosition: {x: -0.007, y: 0.12065852}
   m_SizeDelta: {x: 30.6384, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1007115096
@@ -24679,7 +24687,7 @@ Transform:
   m_GameObject: {fileID: 2091688171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.41, z: 0}
+  m_LocalPosition: {x: 0, y: 0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24725,7 +24733,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.8066038, g: 1, b: 0.97290355, a: 1}
-  m_Intensity: 10
+  m_Intensity: 0
   m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
