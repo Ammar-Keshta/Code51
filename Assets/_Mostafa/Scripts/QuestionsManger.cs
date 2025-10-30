@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class QuestionsManger : MonoBehaviour
 {
 
@@ -9,6 +9,8 @@ public class QuestionsManger : MonoBehaviour
     public UnityEvent OnQuestionsDone;
     private bool eventTriggered = false;
     public HintText Door;
+    public Text counttext;
+    public int count;
     void Start()
     {
         
@@ -16,6 +18,8 @@ public class QuestionsManger : MonoBehaviour
 
     void Update()
     {
+        counttext.text = count.ToString() + "/" + 4;
+
         if (!eventTriggered && AllTrue())
         {
             eventTriggered = true;
@@ -36,6 +40,7 @@ public class QuestionsManger : MonoBehaviour
         {
             Questions[i] = false;
         }
+        count = 0;
     }
 
     private bool AllTrue()
