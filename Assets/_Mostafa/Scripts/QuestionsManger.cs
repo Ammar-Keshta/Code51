@@ -18,7 +18,7 @@ public class QuestionsManger : MonoBehaviour
     [SerializeField] private float toValue = 1f;   
     [SerializeField] private float duration = 1f;
 
-    [SerializeField] private Light targetLight;
+    public Light targetLight;
     [SerializeField] private float lightFromValue = 0f;
     [SerializeField] private float lightToValue = 10f;
 

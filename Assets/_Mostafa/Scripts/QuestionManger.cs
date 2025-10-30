@@ -45,8 +45,9 @@ public class QuestionManger : MonoBehaviour
                     source.clip = Clips[1];
                     source.Play();
                     transform.root.gameObject.SetActive(false);
-
+                    if (FindFirstObjectByType<QuestionsManger>().targetLight.intensity > 0) {
                     FindFirstObjectByType<QuestionsManger>().StartLerp();
+                    }
 
                     break;
             }
