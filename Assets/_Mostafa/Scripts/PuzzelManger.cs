@@ -23,6 +23,7 @@ public class PuzzelManger : MonoBehaviour
         {
             eventTriggered = true;
             OnBuzzelSolved.Invoke();
+            FindFirstObjectByType<ScoreManger>().AddToScore(100);
 
             for (int i = 0; i < Elements.Length; i++)
             {

@@ -30,23 +30,27 @@ public class QuestionManger : MonoBehaviour
             {
 
                 case true:
+                    FindFirstObjectByType<ScoreManger>().AddToScore(150);
+
                     FindFirstObjectByType<QuestionsManger>().Questions[id] = true;
                     FindFirstObjectByType<QuestionsManger>().count += 1;
                     source.clip = Clips[0];
                     source.Play();
                     transform.root.gameObject.SetActive(false);
-                   
+
                     break;
 
 
                 case false:
                     FindFirstObjectByType<QuestionsManger>().restquestions();
+                    FindFirstObjectByType<ScoreManger>().MinusToScore(25);
 
                     source.clip = Clips[1];
                     source.Play();
                     transform.root.gameObject.SetActive(false);
                     if (FindFirstObjectByType<QuestionsManger>().targetLight.intensity > 0) {
                     FindFirstObjectByType<QuestionsManger>().StartLerp();
+
                     }
 
                     break;

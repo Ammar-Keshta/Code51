@@ -12,9 +12,10 @@ public class HintText : MonoBehaviour
     public bool canSolve;
     public int id;
     public bool x = false;
+    AudioSource VO;
     void Start()
     {
-        
+        VO = gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -40,13 +41,15 @@ public class HintText : MonoBehaviour
         if (bridge.BButtonDown && canSolve && amClose  ) {
             Quesutions.SetActive(true);
             hintText.SetActive(false);
-
+            VO.Play();
 
         }   
         
         if (Input.GetKeyDown(KeyCode.B) && canSolve && amClose) {
             Quesutions.SetActive(true);
             hintText.SetActive(false);
+            VO.Play();
+
         }
 
         if (FindFirstObjectByType<QuestionsManger>().Questions[id] == true) { canSolve = false; } 
