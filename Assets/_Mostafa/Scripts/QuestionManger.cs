@@ -9,7 +9,7 @@ public class QuestionManger : MonoBehaviour
     public UnityEvent OnQuestiosDone;
     private bool eventTriggered = false;
     public int id;
-
+    bool isasnwertrue;
     void Start()
     {
 
@@ -30,7 +30,11 @@ public class QuestionManger : MonoBehaviour
             {
 
                 case true:
-                    FindFirstObjectByType<ScoreManger>().AddToScore(150);
+                    if (!isasnwertrue)
+                    {
+                        FindFirstObjectByType<ScoreManger>().AddToScore(150);
+                        isasnwertrue = true;
+                    }
 
                     FindFirstObjectByType<QuestionsManger>().Questions[id] = true;
                     FindFirstObjectByType<QuestionsManger>().count += 1;
