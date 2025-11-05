@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06c57e28ecd05543a802dcfe42f8c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Waiting
-  timetowait: 5
+  timetowait: 3
   scenename: Level_1.1.1
 --- !u!1 &533881088
 GameObject:
