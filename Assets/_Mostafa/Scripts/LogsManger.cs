@@ -17,15 +17,15 @@ public class LogsManger : MonoBehaviour
 
         if (SM.Score >= 850)
         {
-            Title.text = ".ﺀﺎﺿﻮﻀﻟﺍ ﺖﻨﻘﺗﺃ ﺪﻘﻟ  ﺱ";
+            Title.text = "ﺎﻨﻫ ﻚﺘﻤﻬﻣ ﺖﻴﻬﻧﺍ";
         }
         else if (SM.Score >= 650)
         {
-            Title.text = ".ﻯﺅﺮﻟﺍ ﻢﻈﻌﻣ ﻦﻣ ﻯﻮﻗﺃ ﻚﺘﻳﺅﺭ  ﺃ";
+            Title.text = "ﺎﻨﻫ ﻚﺘﻤﻬﻣ ﺖﻴﻬﻧﺍ";
         }
         else if (SM.Score >= 400)
         {
-            Title.text = ".ﻙﺩﺭﺎﻄﻳ ﻝﺍﺰﻳ ﻻ ﺞﻴﺠﻀﻟﺍ ﻦﻜﻟ ...ﺖﻨﺴﺣﺃ  ﺏ";
+            Title.text = "ﺎﻨﻫ ﻚﺘﻤﻬﻣ ﺖﻴﻬﻧﺍ";
         }
         else
         {
