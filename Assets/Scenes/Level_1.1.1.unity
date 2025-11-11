@@ -5639,8 +5639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e1fa2f112bc884483b5e1b1b90f075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixingOverLab
---- !u!135 &454976576
-SphereCollider:
+--- !u!64 &454976576
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5654,12 +5654,13 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.0025
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1562275218897716241, guid: 7d0b4f1aa2232f3428181796d717f3c3, type: 3}
 --- !u!1 &475266505
 GameObject:
   m_ObjectHideFlags: 0
@@ -9448,8 +9449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e1fa2f112bc884483b5e1b1b90f075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixingOverLab
---- !u!135 &800612869
-SphereCollider:
+--- !u!64 &800612869
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9463,12 +9464,13 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.0025
-  m_Center: {x: 0, y: 0, z: -4.656613e-10}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7969978266939365281, guid: 7d0b4f1aa2232f3428181796d717f3c3, type: 3}
 --- !u!136 &801695200
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13851,8 +13853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e1fa2f112bc884483b5e1b1b90f075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixingOverLab
---- !u!135 &1145863909
-SphereCollider:
+--- !u!64 &1145863909
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13866,12 +13868,13 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.0025
-  m_Center: {x: 0, y: 9.313226e-10, z: -4.656613e-10}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2628482395200241503, guid: 7d0b4f1aa2232f3428181796d717f3c3, type: 3}
 --- !u!1 &1155894762
 GameObject:
   m_ObjectHideFlags: 0
@@ -16363,8 +16366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e1fa2f112bc884483b5e1b1b90f075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixingOverLab
---- !u!135 &1292602221
-SphereCollider:
+--- !u!64 &1292602221
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16378,12 +16381,13 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.0025
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5582133695706433325, guid: 7d0b4f1aa2232f3428181796d717f3c3, type: 3}
 --- !u!1 &1302555110
 GameObject:
   m_ObjectHideFlags: 0
