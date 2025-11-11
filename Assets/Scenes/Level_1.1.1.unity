@@ -5313,7 +5313,7 @@ GameObject:
   - component: {fileID: 454976574}
   - component: {fileID: 454976575}
   - component: {fileID: 454976576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5436,7 +5436,7 @@ MonoBehaviour:
   GrabPhysics: 1
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
@@ -9123,7 +9123,7 @@ GameObject:
   - component: {fileID: 800612867}
   - component: {fileID: 800612868}
   - component: {fileID: 800612869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9246,7 +9246,7 @@ MonoBehaviour:
   GrabPhysics: 1
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
@@ -13527,7 +13527,7 @@ GameObject:
   - component: {fileID: 1145863907}
   - component: {fileID: 1145863908}
   - component: {fileID: 1145863909}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '4 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13650,7 +13650,7 @@ MonoBehaviour:
   GrabPhysics: 1
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
@@ -16040,7 +16040,7 @@ GameObject:
   - component: {fileID: 1292602219}
   - component: {fileID: 1292602220}
   - component: {fileID: 1292602221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16163,7 +16163,7 @@ MonoBehaviour:
   GrabPhysics: 1
   GrabMechanic: 1
   GrabSpeed: 15
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
