@@ -16,15 +16,15 @@ public class BlackSceneManger : MonoBehaviour
        
             if (Bridge.XButtonDown)
             {
-
+            FindFirstObjectByType<ScoreManger>().Score = 0 ;
             SceneManager.LoadScene("Level_1.1.1");
 
         }
 
         if (Bridge.YButtonDown)
             {
-
-                SceneManager.LoadScene("MainMenu");
+            FindFirstObjectByType<ScoreManger>().Score = 0;
+            SceneManager.LoadScene("MainMenu");
 
             }
         
